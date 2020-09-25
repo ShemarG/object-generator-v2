@@ -1,5 +1,13 @@
 import Vue from 'vue'
 import App from './App.vue'
+import BootstrapVue from 'bootstrap-vue'
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
+import * as allIcons from "ionicons/icons"
+
+Vue.prototype.$ionicons = allIcons
+
+Vue.use(BootstrapVue)
 
 Vue.config.productionTip = false
 
